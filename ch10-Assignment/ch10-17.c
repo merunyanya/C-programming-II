@@ -18,11 +18,9 @@ typedef struct
     int duration;
 } Song;
 
-void assignment17();
 
 int main()
 {
-    assignment17();
 }
 
 
@@ -48,7 +46,6 @@ void searchSongs(Song songs[], int count, char keyword[])
     }
 }
 
-void assignment17()
 {
     Song songs[MAX_SONGS] =
     {
