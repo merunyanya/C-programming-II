@@ -1,8 +1,8 @@
 /*
-ÇĞ¹ø: 202511859
-ÀÌ¸§ : ÃÖÁ¤Çö
-ÇÁ·Î±×·¥¸í: assignment1003
-³¯Â¥: 25.10.01
+í•™ë²ˆ: 202511859
+ì´ë¦„ : ìµœì •í˜„
+í”„ë¡œê·¸ë¨ëª…: assignment1003
+ë‚ ì§œ: 25.10.01
 */
 
 #define _CRT_SECURE_NO_WARNINGS
@@ -19,7 +19,7 @@ typedef struct
 
 void assignment1003();
 LOGIN inputarray(LOGIN login);
-int findLogin(LOGIN *login, LOGIN *loginCheak, int idx);
+int findLogin(LOGIN* login, LOGIN* loginCheak, int idx);
 
 int main()
 {
@@ -43,17 +43,17 @@ void assignment1003()
 		loginCheak[i] = inputarray(loginCheak[i]);
 		if (findLogin(login, loginCheak, i) == 0)
 		{
-			printf("·Î±×ÀÎ ¼º°ø\n");
+			printf("ë¡œê·¸ì¸ ì„±ê³µ\n");
 
 		}
 		else
 		{
-			printf("Æ²¸²\n");
+			printf("í‹€ë¦¼\n");
 		}
 	}
-	
+
 	return;
- }
+}
 
 LOGIN inputarray(LOGIN login)
 {
@@ -66,7 +66,7 @@ LOGIN inputarray(LOGIN login)
 	return login;
 }
 
-int findLogin(LOGIN *login, LOGIN *loginCheak, int idx)
+int findLogin(LOGIN* login, LOGIN* loginCheak, int idx)
 {
 	for (int i = 0; i < MAX; i++)
 

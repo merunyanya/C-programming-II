@@ -1,8 +1,8 @@
 /*
-ÇĞ¹ø: 202511859
-ÀÌ¸§ : ÃÖÁ¤Çö
-ÇÁ·Î±×·¥¸í: assignment1001
-³¯Â¥: 25.10.01  
+í•™ë²ˆ: 202511859
+ì´ë¦„ : ìµœì •í˜„
+í”„ë¡œê·¸ë¨ëª…: assignment1001
+ë‚ ì§œ: 25.10.01
 */
 
 #define _CRT_SECURE_NO_WARNINGS
@@ -38,7 +38,7 @@ void assignment1001()
 
 	login = inputLogin(login);
 	loginprint(login);
-	
+
 	return;
 }
 
@@ -52,12 +52,12 @@ LOGIN inputLogin(LOGIN login)
 
 	if (strlen(login.id) > 20)
 	{
-		printf("ÃÖ´ë 20±ÛÀÚ±îÁö ÀÔ·Â °¡´ÉÇÕ´Ï´Ù.");
+		printf("ìµœëŒ€ 20ê¸€ìê¹Œì§€ ì…ë ¥ ê°€ëŠ¥í•©ë‹ˆë‹¤.");
 	}
 
 	if (strlen(login.pw) > 20)
 	{
-		printf("ÃÖ´ë 20±ÛÀÚ±îÁö ÀÔ·Â °¡´ÉÇÕ´Ï´Ù.");
+		printf("ìµœëŒ€ 20ê¸€ìê¹Œì§€ ì…ë ¥ ê°€ëŠ¥í•©ë‹ˆë‹¤.");
 	}
 	return login;
 
@@ -68,7 +68,7 @@ void loginprint(LOGIN login)
 	printf("ID: %s\n", login.id);
 	printf("PW: ");
 
-	for (int i = 0;i < strlen(login.pw); i++)
+	for (int i = 0; i < strlen(login.pw); i++)
 	{
 		printf("*");
 

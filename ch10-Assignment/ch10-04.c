@@ -1,8 +1,55 @@
 /*
-ÇĞ¹ø: 202511859
-ÀÌ¸§ : ÃÖÁ¤Çö
-ÇÁ·Î±×·¥¸í: assignment1004
-³¯Â¥: 25.10.01
+í•™ë²ˆ: 202511859
+ì´ë¦„ : ìµœì •í˜„
+í”„ë¡œê·¸ë¨ëª…: assignment1004
+ë‚ ì§œ: 25.10.01
 */
 
 
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <string.h>
+
+typedef struct
+{
+	int year[48];
+	int mon[48];
+	int da[48];
+
+}DATE;
+
+void assignment1004();
+void array_date(DATE date);
+int print_date();
+
+int main()
+{
+	assignment1004();
+	
+	return 0;
+}
+
+void assignment1004()
+{
+	DATE date_chack = { 0 };
+
+	for (int i = 0; i < 48; i++)
+	{
+
+	}
+	return;
+}
+
+int print_date(DATE date)
+{
+	printf("\nì—°?");
+	scanf("%d", date.year);
+
+	printf("\nì›”?");
+	scanf("%d", date.mon);
+
+	printf("\nì¼?");
+	scanf("%d", date.da);
+
+
+}
