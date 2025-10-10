@@ -1,8 +1,8 @@
 /*
-ÇÐ¹ø: 202511859
-ÀÌ¸§: ÃÖÁ¤Çö
-ÇÁ·Î±×·¥¸í:Assignment02 (¹®ÀÚ ¹è¿­À» ¸Å°³º¯¼ö·Î Àü´Þ¹Þ¾Æ °ø¹é ¹®ÀÚ¸¦ ¸ðµÎ Á¦°ÅÇÏ´Â remove_space ÇÔ¼ö ÀÛ¼º)
-³¯Â¥: 25.09.24
+í•™ë²ˆ: 202511859
+ì´ë¦„: ìµœì •í˜„
+í”„ë¡œê·¸ëž¨ëª…:Assignment02 (ë¬¸ìž ë°°ì—´ì„ ë§¤ê°œë³€ìˆ˜ë¡œ ì „ë‹¬ë°›ì•„ ê³µë°± ë¬¸ìžë¥¼ ëª¨ë‘ ì œê±°í•˜ëŠ” remove_space í•¨ìˆ˜ ìž‘ì„±)
+ë‚ ì§œ: 25.10.03
 */
 
 #define _CRT_SECURE_NO_WARNINGS
