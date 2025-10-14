@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "function.h"
 
 
 // ÇÔ¼ö¸í: get_id

@@ -3,8 +3,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "function.h"
 
-extern int get_id(void);
+
+//extern int get_id(void);
 //extern int last_id;
 
 int main(int argc, char* argv[])
